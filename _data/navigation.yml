@@ -1,0 +1,14 @@
+- link: index.html
+  name: Home
+  highlight: true
+- link: about.html
+  name: About
+  highlight: true
+- link: gallery.html
+  name: Gallery
+  highlight: true
+- link: service.html
+  name: Service
+  highlight: true
+- link: contact.html
+  name: Contact

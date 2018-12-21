@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carpenter </title>
+<link rel="stylesheet" href="sytles/main.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<!-- <link rel="stylesheet" href="sytles/normalize.css"> -->
+<link rel="stylesheet" href="sytles/slider.css">
+
+
+</head>
+<body>
+    <div class="header_img">
+
+    {% include header.html %}
+</div>
+    {% include navigation.html %}
+
+    {{content}}
+
+    {% include slider.html %}
+
+    {% include footer.html %}
+<script src="js/main.js"></script>
+
+</body>
+</html>
